@@ -36,4 +36,17 @@ DELETE FROM usuario where id >= 7;
 
 select * from usuario;
 
+create table bloom(
+id int primary key auto_increment,
+nome varchar(80)
+);
+
+insert into bloom(nome) values("Memorizar");
+insert into bloom(nome) values("Compreender");
+insert into bloom(nome) values("Aplicar");
+insert into bloom(nome) values("Analisar");
+insert into bloom(nome) values("Avaliar");
+insert into bloom(nome) values("Criar");
+
+Select * from bloom;
 
